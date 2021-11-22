@@ -1,0 +1,28 @@
+git clone
+git add
+git commit -m(message) "  "
+ 
+ #configuring user.
+ git config --global user.email tefero@tef.kmtefero2011@gmail.com
+ git config --global user.name tefero@tef.tefer0
+
+ 
+ git git push to update remote
+git pull to update local computer
+
+
+
+git branch #create branch
+
+git checkout #switch branch
+
+git push --set-upstream origin Class_practice  #create branch upstream
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
